@@ -1,3 +1,4 @@
+package pack1;
 public class sub{
 	public static int sub(int x, int y)
 	{
