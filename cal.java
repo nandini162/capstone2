@@ -7,10 +7,10 @@ public class cal{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the value1:"+args[0]);
 		x=sc.nextInt();
-		System.out.println("Enter the value2:"+args[0]);
+		System.out.println("Enter the value2:"+args[1]);
 		y=sc.nextInt();
 		System.out.println("Menu:\n 1) Addition\n 2)Subtract\n 3) multiply\n 4)Divide\n");
-		System.out.println("Select choice from menu(1/2/3/4):"+args[0]);
+		System.out.println("Select choice from menu(1/2/3/4):"+args[2]);
 		n=sc.nextInt();
 		switch(n)
 		{
