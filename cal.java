@@ -14,13 +14,13 @@ public class cal{
 		//n=sc.nextInt();
 		switch(n)
 		{
-			case 1: ans=add.add(arg[0],arg[1]);
+			case 1: ans=add.add(args[0],args[1]);
 			break;
-			case 2: ans=sub.sub(arg[0],arg[1]);
+			case 2: ans=sub.sub(args[0],args[1]);
 			break;
-			case 3: ans=mutiply.multiply(arg[0],arg[1]);
+			case 3: ans=mutiply.multiply(args[0],args[1]);
 			break;
-			case 4: ans=divide.divide(arg[0],arg[1]);
+			case 4: ans=divide.divide(args[0],args[1]);
 			break;
 		}
 		System.out.println("Answer:"+ans);
